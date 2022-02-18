@@ -1,4 +1,5 @@
-import * as admin from "firebase-admin";
-admin.initializeApp();
+import * as admin from 'firebase-admin';
 import { Firestore } from './firestore';
+
+admin.initializeApp();
 export { Firestore };
