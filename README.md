@@ -4,13 +4,9 @@ This project is about implementating firestore staying in guideline of *Object O
 
 Yet then again it's structured in away if your coming from firestore UI, you will easily notice the same features, some may stand out more then others, **Inharitance**. 
 
-Packages like ``npm i firestore-design-functions`` uses this package to already allow you to access this core functionality of objects where you can easliy extent your *Design Patterens*.
+Packages like ``npm i firestore-design-functions``(deprecated for now) uses this package to already allow you to access this core functionality of objects where you can easliy extent your *Design Patterens*.
 
 
-
-> This TSDX setup is meant for developing libraries (not apps!) that can be published to NPM. If you’re looking to build a Node app, you could use `ts-node-dev`, plain `ts-node`, or simple `tsc`.
-
-> If you’re new to TypeScript, checkout [this handy cheatsheet](https://devhints.io/typescript)
 
 ## Commands
 
