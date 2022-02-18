@@ -10,10 +10,6 @@ Packages like ``npm i firestore-design-functions``(deprecated for now) uses this
 
 ## Commands
 
-TSDX scaffolds your new library inside `/src`.
-
-To run TSDX, use:
-
 ```bash
 npm start # or yarn start
 ```
