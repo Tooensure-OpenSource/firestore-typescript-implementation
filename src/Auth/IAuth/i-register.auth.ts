@@ -1,4 +1,4 @@
-import {UserRecord} from "firebase-functions/v1/auth";
+import { UserRecord } from "firebase-admin/lib/auth/user-record";
 
 export interface IRegisterAuth
 {
