@@ -1,3 +1,3 @@
-import {ICollection} from "../Collection/ICollection/i-collection";
+import { ICollection } from '../Collection/ICollection/i-collection';
 
-export type IDatabase<T> = ICollection<T>
+export type IDatabase<T> = ICollection<T>;

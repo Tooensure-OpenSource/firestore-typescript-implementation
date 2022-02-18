@@ -1,2 +1,2 @@
-import {Firestore} from "./firestore";
-export {Firestore};
+import { Firestore } from './firestore';
+export { Firestore };
