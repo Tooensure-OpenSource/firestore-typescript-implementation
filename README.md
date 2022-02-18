@@ -49,7 +49,7 @@ tsconfig.json
 
 ### Rollup
 
-TSDX uses [Rollup](https://rollupjs.org) as a bundler and generates multiple rollup configs for various module formats and build settings. See [Optimizations](#optimizations) for details.
+Repo uses [Rollup](https://rollupjs.org) as a bundler and generates multiple rollup configs for various module formats and build settings. See [Optimizations](#optimizations) for details.
 
 ### TypeScript
 
@@ -66,7 +66,7 @@ Two actions are added by default:
 
 ## Optimizations
 
-Please see the main `tsdx` [optimizations docs](https://github.com/palmerhq/tsdx#optimizations). In particular, know that you can take advantage of development-only optimizations:
+Please see the main `Repo` [optimizations docs](https://github.com/palmerhq/Repo#optimizations). In particular, know that you can take advantage of development-only optimizations:
 
 ```js
 // ./types/index.d.ts
@@ -85,7 +85,7 @@ The appropriate paths are configured in `package.json` and `dist/index.js` accor
 
 ## Including Styles
 
-There are many ways to ship styles, including with CSS-in-JS. TSDX has no opinion on this, configure how you like.
+There are many ways to ship styles, including with CSS-in-JS. Repo has no opinion on this, configure how you like.
 
 For vanilla CSS, you can include it at the root directory and add it to the `files` section in your `package.json`, so that it can be imported separately by your users and run through their bundler's loader.
 
