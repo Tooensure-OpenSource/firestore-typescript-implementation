@@ -1,8 +1,6 @@
-import * as admin from 'firebase-admin';
 import { Database } from './Database/database';
 import { IFirestore } from './IFirestore/i-firestore';
 
-admin.initializeApp();
 export class Firestore<T> extends Database<T> implements IFirestore<T> {
   /**
    * Firestore instance will set your collections in local storage and data,

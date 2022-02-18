@@ -15,13 +15,13 @@ export class AddDocument<T> implements IAddDocument<T> {
   }
 
   async addDocumentWithUid(id: string, model: T): Promise<T> {
-    const data = await admin
+    await admin
       .firestore()
-      .doc(id)
       .collection(this.collection)
-      .add(model);
+      .doc(id)
+      .create(JSON.parse(JSON.stringify(model)));
 
     console.log(JSON.parse(JSON.stringify(model)));
-    return (await data.get()).data() as T;
+    return model as T;
   }
 }
